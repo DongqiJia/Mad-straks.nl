@@ -49,9 +49,20 @@ class _VoorkeurState extends State<Voorkeur> {
               ),
               Center(
                 child: Container(
-                  height: 130,
-                  width: 200,
-                  color: Colors.amber,
+                    height: 130,
+                    width: 200,
+                    color: Colors.amber,
+                    child: Image.asset('images/weer.jpg')),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Center(
+                child: Container(
+                  child: Text(
+                    "Thema",
+                    style: TextStyle(fontSize: 20),
+                  ),
                 ),
               ),
               SizedBox(
@@ -72,8 +83,20 @@ class _VoorkeurState extends State<Voorkeur> {
                   height: 130,
                   width: 200,
                   color: Colors.amber,
+                  child: Image.asset('images/bron.jpg'),
                 ),
-              )
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Center(
+                child: Container(
+                  child: Text(
+                    "Bron Titel",
+                    style: TextStyle(fontSize: 20),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
